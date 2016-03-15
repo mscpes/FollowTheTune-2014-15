@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="Music_Play" sid="8849998453624171" static="0" type="number">0</variable>
+        <event-group description="" inactive="1" sid="4058596479499354" title="Touch">
+            <sub-events>
+                <event-block sid="304760811055833">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="1694033132839254" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="25" name="Play at object" sid="2423495180915815" type="Audio">
+                            <param id="0" name="Audio file">sa1</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">0</param>
+                            <param id="3" name="Object">Sprite</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="3" name="Start" sid="4998559765441535" type="Sprite">
+                            <param id="0" name="From">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="9665214673548355" type="Function">
+                            <param id="0" name="Name">&quot;add3&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6179601161462599">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="9310463838407982" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Start" sid="5452717175281702" type="Sprite2">
+                            <param id="0" name="From">1</param>
+                        </action>
+                        <action id="25" name="Play at object" sid="3935076292957959" type="Audio">
+                            <param id="0" name="Audio file">re</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">0</param>
+                            <param id="3" name="Object">Sprite2</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="658628337511852" type="Function">
+                            <param id="0" name="Name">&quot;mul2&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4649667709488173">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="212664075271326" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Start" sid="5605761563846341" type="Sprite3">
+                            <param id="0" name="From">1</param>
+                        </action>
+                        <action id="25" name="Play at object" sid="644401887552981" type="Audio">
+                            <param id="0" name="Audio file">ga</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">0</param>
+                            <param id="3" name="Object">Sprite3</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="1713612837652424" type="Function">
+                            <param id="0" name="Name">&quot;add7&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9445403880474688">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="6090468849078578" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Sprite4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Start" sid="5572111592564074" type="Sprite4">
+                            <param id="0" name="From">1</param>
+                        </action>
+                        <action id="25" name="Play at object" sid="7863668819078243" type="Audio">
+                            <param id="0" name="Audio file">ma</param>
+                            <param id="1" name="Loop">0</param>
+                            <param id="2" name="Volume">0</param>
+                            <param id="3" name="Object">Sprite4</param>
+                            <param id="4" name="Inner angle">360</param>
+                            <param id="5" name="Outer angle">360</param>
+                            <param id="6" name="Outer gain">0</param>
+                            <param id="7" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Call function" sid="624783205004715" type="Function">
+                            <param id="0" name="Name">&quot;sub2&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="347593774026775">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9920191845954114" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Insert" sid="5875353147616712" type="Array">
+                    <param id="0" name="Value">choose(&quot;cat&quot;,&quot;dog&quot;)</param>
+                    <param id="1" name="Index">0</param>
+                    <param id="2" name="Axis">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8214985680340315">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1581073190346352" type="Button" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="9182081524155364" type="Function">
+                    <param id="0" name="Name">&quot;level 1.0&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8775706562008972">
+            <conditions>
+                <condition id="0" name="On function" sid="3753578362508828" type="Function">
+                    <param id="0" name="Name">&quot;level 1.0&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="3501140677606293" type="Audio">
+                    <param id="0" name="Audio file">ga</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="3" name="Start" sid="428808390782546" type="Sprite3">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="3351793693850576" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Play" sid="1638973755510584" type="Audio">
+                    <param id="0" name="Audio file">sa1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="3" name="Start" sid="9220516268163391" type="Sprite">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="7357586143726379" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Play" sid="1088843091251568" type="Audio">
+                    <param id="0" name="Audio file">re</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="3" name="Start" sid="6052992493630902" type="Sprite2">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-12" name="Set group active" sid="8062347990631847" type="System">
+                    <param id="0" name="Group name">&quot;touch&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="3263669448442979" type="System">
+                    <param id="0" name="Seconds">5.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4520253258251936">
+            <conditions>
+                <condition id="0" name="On function" sid="4000204405433601" type="Function">
+                    <param id="0" name="Name">&quot;mul2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="2843227932739796" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Value">Music_Play</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5058693935122623">
+            <conditions>
+                <condition id="0" name="On function" sid="7954852051561344" type="Function">
+                    <param id="0" name="Name">&quot;mul3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="5221927390817848" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Value">Music_Play</param>
+                </action>
+                <action id="-10" name="Add to" sid="4491837464750754" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Value">Music_Play</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5100139469408567">
+            <conditions>
+                <condition id="0" name="On function" sid="2963668502614786" type="Function">
+                    <param id="0" name="Name">&quot;add3&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8992040618119405" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6991575735398479">
+            <conditions>
+                <condition id="0" name="On function" sid="4584822251174032" type="Function">
+                    <param id="0" name="Name">&quot;sub2&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="714090245944386" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5851454640545666">
+            <conditions>
+                <condition id="0" name="On function" sid="702693704026859" type="Function">
+                    <param id="0" name="Name">&quot;add7&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="476553837242283" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Value">7</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4640372211233891">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="9894312306298241">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5233881837782769" type="System">
+                    <param id="0" name="Variable">Music_Play</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">20</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6946430916036767" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

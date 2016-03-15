@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description>vbhfd dfvkdfhv </description>
+    <version>1.0</version>
+    <author>v dfkvnfdv</author>
+    <author-email>vdflvjl@gnfd.com</author-email>
+    <author-website>nfdkhgk.com</author-website>
+    <app-id>4354546</app-id>
+    <unique-id>3k8y8jenijj4j</unique-id>
+    <saved-with-version>14600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects>
+        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">No</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">Yes</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">All devices</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="WebStorage" sid="5348170403011429">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="Touch" sid="5360238741765463">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Browser" sid="2272070290508734">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Audio" sid="432376389717995">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="TiledBackground" sid="7265412133298245">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="9907277331399186">
+            <plugin id="TiledBg" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+            </effects>
+            <texture />
+        </object-type>
+        <object-type name="Sprite" sid="2439817399068222">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3099915638881255" speed="40">
+                    <frame duration="10" hotspotX="1.00893" hotspotY="1" />
+                    <frame duration="10" hotspotX="1.00893" hotspotY="1" />
+                    <frame duration="10" hotspotX="1.00893" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="6758441958606683">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523986807762071" speed="40">
+                    <frame duration="10" hotspotX="0.0175439" hotspotY="-0.972727" />
+                    <frame duration="10" hotspotX="0.0175439" hotspotY="-0.972727" />
+                    <frame duration="10" hotspotX="0.0175439" hotspotY="-0.972727" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="6860523316690654">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8432642193466654" speed="40">
+                    <frame duration="10" hotspotX="0.0275229" hotspotY="0.00884956" />
+                    <frame duration="10" hotspotX="0.0275229" hotspotY="0.00884956" />
+                    <frame duration="10" hotspotX="0.0275229" hotspotY="0.00884956" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="4774791202922225">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5511019355216785" speed="40">
+                    <frame duration="10" hotspotX="-0.00892857" hotspotY="0" />
+                    <frame duration="10" hotspotX="-0.00892857" hotspotY="0" />
+                    <frame duration="10" hotspotX="-0.00892857" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="1459918559128204">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Function" sid="7061411909365543">
+            <plugin id="Function" />
+        </object-type>
+        <object-type global="1" name="Array" sid="5781247065127125">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="4941836542355725">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Text" sid="6009411620321417">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite5" sid="6140069084608523">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1352044529179018" speed="5">
+                    <frame duration="1" hotspotX="0.500835" hotspotY="0.501119" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="8424853174936533">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8145511520036397" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0517578" y="0.0517578" />
+                            <point x="0.5" y="0.000976563" />
+                            <point x="0.948242" y="0.0517578" />
+                            <point x="1" y="0.5" />
+                            <point x="0.948242" y="0.948242" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0507813" y="0.949219" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="2240728427209931">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="785835597621108">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Text2" sid="1052027780697187">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 3.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="WebStorage" uid="0" />
+        <global-instance type="Touch" uid="1">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="2" />
+        <global-instance type="Audio" uid="3">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+                <speed-of-sound>5000</speed-of-sound>
+                <doppler-factor>1</doppler-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="9" />
+        <global-instance type="Function" uid="10" />
+    </global-instances>
+    <sounds-folder expanded="1">
+        <file name="count on me.ogg" />
+        <file name="dha.m4a" />
+        <file name="dha.ogg" />
+        <file name="dha.wav" />
+        <file name="ga.m4a" />
+        <file name="ga.ogg" />
+        <file name="ga.wav" />
+        <file name="ma.m4a" />
+        <file name="ma.ogg" />
+        <file name="ma.wav" />
+        <file name="ni.m4a" />
+        <file name="ni.ogg" />
+        <file name="ni.wav" />
+        <file name="pa.m4a" />
+        <file name="pa.ogg" />
+        <file name="pa.wav" />
+        <file name="re.m4a" />
+        <file name="re.ogg" />
+        <file name="re.wav" />
+        <file name="sa1.m4a" />
+        <file name="sa1.ogg" />
+        <file name="sa1.wav" />
+        <file name="sa2.m4a" />
+        <file name="sa2.ogg" />
+        <file name="sa2.wav" />
+        <file name="saregama.m4a" />
+        <file name="saregama.ogg" />
+        <file name="saregama.wav" />
+    </sounds-folder>
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
